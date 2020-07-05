@@ -14,8 +14,8 @@ const Home: React.FC<Props> = ({ navigation }) => {
     <View>
       <Text>Home</Text>
       <Button
-        title="Sobre"
-        onPress={() => navigation.navigate("Sobre", { nome: "Marcos" })}
+        title="Ir para o Perfil"
+        onPress={() => navigation.navigate("Perfil", { nome: "Marcos" })}
       />
     </View>
   );
